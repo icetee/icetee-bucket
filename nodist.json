@@ -4,9 +4,16 @@
     "license": "MIT",
     "url": "https://github.com/marcelklehr/nodist/releases/download/v0.7.2/NodistSetup-v0.7.2.exe",
     "hash": "md5:9C32B13DC0419F3A2B80E29116620C5B",
-    "innosetup": true,
+    "installer": {
+        "args": "/S /D=$dir"
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": "/S"
+    },
+    "env_add_path": "bin",
     "bin": [
-        "nodist.cmd",
-        "nodist.ps1"
+        "bin\\nodist",
+        "bin\\nodist.cmd"
     ]
 }
