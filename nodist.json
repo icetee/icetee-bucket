@@ -4,5 +4,8 @@
     "license": "MIT",
     "url": "https://github.com/marcelklehr/nodist/releases/download/v0.7.2/NodistSetup-v0.7.2.exe",
     "hash": "md5:9C32B13DC0419F3A2B80E29116620C5B",
-    "bin": "bin\\nodist.cmd"
+    "bin": [
+        "bin\\nodist.cmd",
+        "bin\\nodist.ps1"
+    ]
 }
