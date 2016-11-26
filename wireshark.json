@@ -1,0 +1,38 @@
+{
+    "homepage": "https://www.wireshark.org",
+    "version": "2.2.2",
+    "license": "GNUv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://1.eu.dl.wireshark.org/win64/Wireshark-win64-2.2.2.exe",
+            "hash": "82F16EE36C52F6A6A499BA1DA041DEA9F42C57136DB2F098FF3334111A2A551F"
+        },
+        "32bit": {
+            "url": "https://1.eu.dl.wireshark.org/win32/Wireshark-win32-2.2.2.exe",
+            "hash": "89B6DD104F5675CDD50A7122F11F96FAEF3F942E4ACD9C76ADD96B321D00A7E3"
+        }
+    },
+    "extract_dir": "wireshark",
+    "installer": {
+        "args": "/S /D=$dir"
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": "/S"
+    },
+    "env_add_path": "bin",
+    "bin": [
+        "capinfos.exe",
+        "dumpcap.exe",
+        "editcap.exe",
+        "mergecap.exe",
+        "rawshark.exe",
+        "reordercap.exe",
+        "text2pcap.exe",
+        "tshark.exe",
+        "wireshark.exe"
+    ],
+    "shortcuts" : [
+        [ "wireshark.exe" , "Wireshark"]
+    ]
+}
