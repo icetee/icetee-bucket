@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/marcelklehr/nodist",
-    "version": "0.8.7",
+    "version": "0.8.8",
     "license": "MIT",
-    "url": "https://github.com/marcelklehr/nodist/releases/download/v0.8.7/NodistSetup-v0.8.7.exe",
-    "hash": "SHA256:AF20A41DA119DE266DCED98900745F2A6A3E668F4F1C16581B87E7965574A068",
+    "url": "https://github.com/marcelklehr/nodist/releases/download/v0.8.8/NodistSetup-v0.8.8.exe",
+    "hash": "SHA256:9BB855DE574F6EC015AD4B129700C165254FE97C5FF3907279017B247C55D521",
     "installer": {
         "args": "/S /D=$dir"
     },
